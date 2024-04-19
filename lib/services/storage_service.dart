@@ -6,7 +6,7 @@ enum StorageKey{
 }
 
 @immutable
-sealed class StorageService{
+sealed class StorageService {
 
   /// store data
   static Future<void> storeData({required StorageKey key, required String value})async{
